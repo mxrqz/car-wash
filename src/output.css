@@ -767,6 +767,10 @@ body {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .min-w-12 {
   min-width: 3rem;
 }
