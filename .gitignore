@@ -1,0 +1,5 @@
+node_modules
+package.json
+bun.lockb
+tailwind.config.js
+*.zip
