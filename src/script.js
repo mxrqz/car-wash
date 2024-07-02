@@ -87,10 +87,16 @@ function hamburguerMenu() {
 }
 
 function video() {
-    const videoDiv = document.getElementById('video')
+    const videoDiv = document.getElementById('video');
+    const video = document.getElementById('vid');
 
-    if (!videoDiv) return console.error('div n encontrada')
-    videoDiv.innerHTML = '<h1>video</h1>'
+    if (!videoDiv) return console.error('Div não encontrada');
+
+    if (!video) {
+        videoDiv.classList.remove('h-48');
+        videoDiv.classList.remove('aspect-video');
+        videoDiv.innerHTML = '<video id="vid" controls autoplay src="./images/carWash/video.mp4"></video>';
+    }
 }
 
 function fetchNews() {
