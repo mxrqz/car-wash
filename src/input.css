@@ -92,15 +92,15 @@ html {
 }
 
 .blue-shadow-left {
-  box-shadow: 3px 3px 2px rgb(59, 130, 246);
+  box-shadow: 3px 3px 2px rgb(21, 128, 61);
 }
 
 .blue-shadow-center {
-  box-shadow: 0px 3px 2px rgb(59, 130, 246);
+  box-shadow: 0px 3px 2px rgb(21, 128, 61);
 }
 
 .blue-shadow-right {
-  box-shadow: -3px 3px 2px rgb(59, 130, 246);
+  box-shadow: -3px 3px 2px rgb(21, 128, 61);
 }
 
 .scroll-bar::-webkit-scrollbar {

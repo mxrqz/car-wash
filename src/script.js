@@ -2,6 +2,9 @@ let news
 
 document.addEventListener('DOMContentLoaded', function () {
     const newsContainer = this.getElementById('news')
+    const date = this.getElementById('date')
+
+    date.textContent = dayjs(Date.now()).format('YYYY')
     fetchNews()
         .then(news => {
             newsContainer.innerHTML = ''
