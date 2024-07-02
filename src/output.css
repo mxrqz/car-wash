@@ -788,6 +788,10 @@ body {
   max-width: 4rem;
 }
 
+.max-w-96 {
+  max-width: 24rem;
+}
+
 .translate-x-full {
   --tw-translate-x: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1775,6 +1779,10 @@ html {
 @media (min-width: 1536px) {
   .\32xl\:min-h-96 {
     min-height: 24rem;
+  }
+
+  .\32xl\:w-96 {
+    width: 24rem;
   }
 
   .\32xl\:px-96 {
