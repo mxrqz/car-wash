@@ -767,8 +767,8 @@ body {
   width: 100%;
 }
 
-.w-3 {
-  width: 0.75rem;
+.w-64 {
+  width: 16rem;
 }
 
 .min-w-12 {
@@ -1694,6 +1694,14 @@ html {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-9 {
+    width: 2.25rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   @keyframes shake {
