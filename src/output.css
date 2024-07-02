@@ -767,8 +767,8 @@ body {
   width: 100%;
 }
 
-.w-12 {
-  width: 3rem;
+.w-3 {
+  width: 0.75rem;
 }
 
 .min-w-12 {
@@ -1269,11 +1269,6 @@ body {
 
 .drop-shadow-custom {
   --tw-drop-shadow: drop-shadow(4px 4px 10px rgba(0, 0, 0, .30));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.invert {
-  --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
