@@ -1196,6 +1196,11 @@ body {
   padding-bottom: 1.75rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pr-3 {
   padding-right: 0.75rem;
 }
@@ -1792,6 +1797,11 @@ html {
     padding-bottom: 6rem;
   }
 
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .lg\:pt-24 {
     padding-top: 6rem;
   }
@@ -1824,5 +1834,10 @@ html {
   .\32xl\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .\32xl\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
   }
 }
